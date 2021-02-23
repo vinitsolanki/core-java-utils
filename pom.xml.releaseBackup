@@ -5,8 +5,8 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.vinitsolanki</groupId>
 	<artifactId>core-java-utils</artifactId>
-	<version>0.0.2</version>
-	<packaging>pom</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>core-java-utils</name>
 	<description>Core java utils</description>
 	<licenses>
@@ -26,7 +26,6 @@
 		<connection>scm:git:git://github.com/vinitsolanki/core-java-utils.git</connection>
 		<developerConnection>scm:git:ssh://github.com:vinitsolanki/core-java-utils.git</developerConnection>
 		<url>http://github.com/vinitsolanki/core-java-utils/tree/master</url>
-		<tag>core-java-utils-0.0.1</tag>
 	</scm>
 
 	<distributionManagement>
@@ -91,30 +90,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.2</version> <!-- or whatever current version -->
-				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
-				</configuration>
-			</plugin>
 		</plugins>
 	</build>
 
-	<modules>
-		<module>core-java-utils-io-poi</module>
-		<module>core-java-utils-beans</module>
-		<module>core-java-utils-io-image</module>
-		<module>core-java-utils-io-pdf</module>
-		<module>core-java-utils-date</module>
-		<module>core-java-utils-http</module>
-		<module>core-java-utils-string</module>
-		<module>core-java-utils-number</module>
-		<module>core-java-utils-persistence</module>
-		<module>core-java-utils-io-file</module>
-		<module>core-java-utils-io-jasper</module>
-		<module>core-java-utils-services</module>
-	</modules>
 </project>
